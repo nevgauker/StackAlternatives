@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,43 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackAlternatives" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vnw-L5-gqc" customClass="HorizontalStackView" customModule="StackAlternatives" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="ecA-as-IpG"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MA0-6I-G6k" customClass="VerticalStackView" customModule="StackAlternatives" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="400" width="414" height="476"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Vnw-L5-gqc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5nM-Cd-krg"/>
+                            <constraint firstItem="MA0-6I-G6k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6JN-DB-8jq"/>
+                            <constraint firstItem="MA0-6I-G6k" firstAttribute="top" secondItem="Vnw-L5-gqc" secondAttribute="bottom" id="ao2-OK-zOd"/>
+                            <constraint firstItem="Vnw-L5-gqc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hKn-ZR-reg"/>
+                            <constraint firstAttribute="bottom" secondItem="MA0-6I-G6k" secondAttribute="bottom" constant="20" symbolic="YES" id="lOM-qV-v2W"/>
+                            <constraint firstItem="Vnw-L5-gqc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nMj-S4-Cn7"/>
+                            <constraint firstItem="MA0-6I-G6k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tf7-9F-ISb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="horizView" destination="Vnw-L5-gqc" id="BTp-Pr-UUS"/>
+                        <outlet property="verticView" destination="MA0-6I-G6k" id="AF5-O0-6WM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>

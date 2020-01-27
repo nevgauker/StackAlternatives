@@ -13,6 +13,20 @@
 		DCA0534723DF48B100971DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA0534523DF48B100971DB0 /* Main.storyboard */; };
 		DCA0534923DF48B100971DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA0534823DF48B100971DB0 /* Assets.xcassets */; };
 		DCA0534C23DF48B100971DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA0534A23DF48B100971DB0 /* LaunchScreen.storyboard */; };
+		DCA0536223DF48CE00971DB0 /* b.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0535523DF48CE00971DB0 /* b.swift */; };
+		DCA0536323DF48CE00971DB0 /* a.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535623DF48CE00971DB0 /* a.xib */; };
+		DCA0536423DF48CE00971DB0 /* b.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535723DF48CE00971DB0 /* b.xib */; };
+		DCA0536523DF48CE00971DB0 /* c.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535823DF48CE00971DB0 /* c.xib */; };
+		DCA0536623DF48CE00971DB0 /* c.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0535923DF48CE00971DB0 /* c.swift */; };
+		DCA0536723DF48CE00971DB0 /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0535A23DF48CE00971DB0 /* a.swift */; };
+		DCA0536823DF48CE00971DB0 /* f.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535C23DF48CE00971DB0 /* f.xib */; };
+		DCA0536923DF48CE00971DB0 /* d.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535D23DF48CE00971DB0 /* d.xib */; };
+		DCA0536A23DF48CE00971DB0 /* e.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA0535E23DF48CE00971DB0 /* e.xib */; };
+		DCA0536B23DF48CE00971DB0 /* f.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0535F23DF48CE00971DB0 /* f.swift */; };
+		DCA0536C23DF48CE00971DB0 /* d.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0536023DF48CE00971DB0 /* d.swift */; };
+		DCA0536D23DF48CE00971DB0 /* e.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0536123DF48CE00971DB0 /* e.swift */; };
+		DCA0537023DF491700971DB0 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0536F23DF491700971DB0 /* VerticalStackView.swift */; };
+		DCA0537223DF492300971DB0 /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0537123DF492300971DB0 /* HorizontalStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		DCA0534823DF48B100971DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA0534B23DF48B100971DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA0534D23DF48B100971DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA0535523DF48CE00971DB0 /* b.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = b.swift; sourceTree = "<group>"; };
+		DCA0535623DF48CE00971DB0 /* a.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = a.xib; sourceTree = "<group>"; };
+		DCA0535723DF48CE00971DB0 /* b.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = b.xib; sourceTree = "<group>"; };
+		DCA0535823DF48CE00971DB0 /* c.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = c.xib; sourceTree = "<group>"; };
+		DCA0535923DF48CE00971DB0 /* c.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = c.swift; sourceTree = "<group>"; };
+		DCA0535A23DF48CE00971DB0 /* a.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
+		DCA0535C23DF48CE00971DB0 /* f.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = f.xib; sourceTree = "<group>"; };
+		DCA0535D23DF48CE00971DB0 /* d.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = d.xib; sourceTree = "<group>"; };
+		DCA0535E23DF48CE00971DB0 /* e.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = e.xib; sourceTree = "<group>"; };
+		DCA0535F23DF48CE00971DB0 /* f.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = f.swift; sourceTree = "<group>"; };
+		DCA0536023DF48CE00971DB0 /* d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = d.swift; sourceTree = "<group>"; };
+		DCA0536123DF48CE00971DB0 /* e.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = e.swift; sourceTree = "<group>"; };
+		DCA0536F23DF491700971DB0 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		DCA0537123DF492300971DB0 /* HorizontalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 		DCA0533E23DF48B100971DB0 /* StackAlternatives */ = {
 			isa = PBXGroup;
 			children = (
+				DCA0535323DF48CE00971DB0 /* Views */,
 				DCA0533F23DF48B100971DB0 /* AppDelegate.swift */,
 				DCA0534123DF48B100971DB0 /* SceneDelegate.swift */,
 				DCA0534323DF48B100971DB0 /* ViewController.swift */,
@@ -65,6 +94,51 @@
 				DCA0534D23DF48B100971DB0 /* Info.plist */,
 			);
 			path = StackAlternatives;
+			sourceTree = "<group>";
+		};
+		DCA0535323DF48CE00971DB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0536E23DF48F800971DB0 /* Stack */,
+				DCA0535423DF48CE00971DB0 /* Horizontal */,
+				DCA0535B23DF48CE00971DB0 /* Vertical */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCA0535423DF48CE00971DB0 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0535523DF48CE00971DB0 /* b.swift */,
+				DCA0535623DF48CE00971DB0 /* a.xib */,
+				DCA0535723DF48CE00971DB0 /* b.xib */,
+				DCA0535823DF48CE00971DB0 /* c.xib */,
+				DCA0535923DF48CE00971DB0 /* c.swift */,
+				DCA0535A23DF48CE00971DB0 /* a.swift */,
+			);
+			path = Horizontal;
+			sourceTree = "<group>";
+		};
+		DCA0535B23DF48CE00971DB0 /* Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0535C23DF48CE00971DB0 /* f.xib */,
+				DCA0535D23DF48CE00971DB0 /* d.xib */,
+				DCA0535E23DF48CE00971DB0 /* e.xib */,
+				DCA0535F23DF48CE00971DB0 /* f.swift */,
+				DCA0536023DF48CE00971DB0 /* d.swift */,
+				DCA0536123DF48CE00971DB0 /* e.swift */,
+			);
+			path = Vertical;
+			sourceTree = "<group>";
+		};
+		DCA0536E23DF48F800971DB0 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0537123DF492300971DB0 /* HorizontalStackView.swift */,
+				DCA0536F23DF491700971DB0 /* VerticalStackView.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA0536A23DF48CE00971DB0 /* e.xib in Resources */,
+				DCA0536823DF48CE00971DB0 /* f.xib in Resources */,
 				DCA0534C23DF48B100971DB0 /* LaunchScreen.storyboard in Resources */,
+				DCA0536923DF48CE00971DB0 /* d.xib in Resources */,
 				DCA0534923DF48B100971DB0 /* Assets.xcassets in Resources */,
+				DCA0536423DF48CE00971DB0 /* b.xib in Resources */,
+				DCA0536523DF48CE00971DB0 /* c.xib in Resources */,
 				DCA0534723DF48B100971DB0 /* Main.storyboard in Resources */,
+				DCA0536323DF48CE00971DB0 /* a.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA0536623DF48CE00971DB0 /* c.swift in Sources */,
+				DCA0536223DF48CE00971DB0 /* b.swift in Sources */,
 				DCA0534423DF48B100971DB0 /* ViewController.swift in Sources */,
+				DCA0536723DF48CE00971DB0 /* a.swift in Sources */,
 				DCA0534023DF48B100971DB0 /* AppDelegate.swift in Sources */,
+				DCA0536B23DF48CE00971DB0 /* f.swift in Sources */,
+				DCA0536D23DF48CE00971DB0 /* e.swift in Sources */,
+				DCA0536C23DF48CE00971DB0 /* d.swift in Sources */,
 				DCA0534223DF48B100971DB0 /* SceneDelegate.swift in Sources */,
+				DCA0537223DF492300971DB0 /* HorizontalStackView.swift in Sources */,
+				DCA0537023DF491700971DB0 /* VerticalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
